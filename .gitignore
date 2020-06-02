@@ -75,3 +75,6 @@ xcuserdata/
 /.cproject
 /config.log
 /.project
+
+# VS
+.vs/*

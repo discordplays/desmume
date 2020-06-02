@@ -1,0 +1,4380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+    <None Include="desmume\src\frontend\modules\osd\agg\agg2d.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="desmume\src\instruction_tabdef.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="desmume\src\thumb_tabdef.inc">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="desmume\src\addons\slot1_none.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1_r4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1_retail_auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1_retail_mcrom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1_retail_mcrom_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1_retail_nand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1comp_mc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1comp_protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot1comp_rom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_expMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_gbagame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_guitarGrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_mpcf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_none.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_passme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_piano.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\addons\slot2_rumblepak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\2xsai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\bilinear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\deposterize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\epx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\hq2x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\hq3x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\hq4x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\lq2x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\scanline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\videofilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\filter\xbrz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\basepic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftadvanc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftbase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftbbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftbitmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftcalc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftdbgmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftdebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftfntfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftfstype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftgasp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftgloadr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftglyph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftgxval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftlcdfil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftotval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftoutln.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftpatent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftpfr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftrfork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftsnames.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftstream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftstroke.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftsynth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftsystem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\fttrigon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\fttype1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\ftutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\base\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2arrst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2blues.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2ft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2hints.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2intrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffcmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffdrivr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffgload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cff\cffpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\cidgload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\cidload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\cidobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\cidparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\cidriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\cid\type1cid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\afmparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\psaux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\psauxmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\psconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\psobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\t1cmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psaux\t1decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshalgo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshglob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshinter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshrec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psnames\psmodule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psnames\psnames.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\psnames\pspic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\pngshim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfdriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfntpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttbdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttcmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttkern.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttmtx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttpost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttsbit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftgrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftsmooth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftspic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\smooth\smooth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\truetype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttdriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttgload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttgxvar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttinterp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttobjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttpload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttsubpix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1afm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1driver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1gload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1objs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\t1parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\freetype\src\type1\type1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\lua\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\audiosamplegenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\ClientAVCaptureObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\ClientDisplayView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\ClientExecutionControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\ClientInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\coreaudiosound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\macOS_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\macosx_10_5_compat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\mic_ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\OGLDisplayOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\OGLDisplayOutput_3_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\ringbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\sndOSX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\cocoa\utilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\modules\osd\agg\agg_osd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\modules\osd\agg\aggdraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\modules\Disassembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\modules\ImageOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\cli\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\tools\ioregsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\avout_flac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\avout_pipe_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\avout_x264.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\cheatsGTK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\desmume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\dToolsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\dylibbundler.modified.Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\glx_3Demu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk\osmesa_3Demu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\dTools\callbacks_1_ioregs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\dTools\callbacks_2_memview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\dTools\callbacks_3_palview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\dTools\callbacks_4_tileview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\callbacks_IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\desmume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\gdk_3Demu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\gdk_gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\glade-xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\keyval_names.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\gtk-glade\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\shared\ctrlssdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\shared\desmume_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\shared\mic_alsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\shared\mic_openal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\posix\shared\sndsdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\font_freetype\agg_font_freetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\font_win32_tt\agg_font_win32_tt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_bezier_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_cbox_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_gamma_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_gamma_spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_polygon_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_rbox_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_scale_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_slider_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\ctrl\agg_spline_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\platform\win32\agg_platform_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\platform\win32\agg_win32_bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_arrowhead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_bezier_arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_bspline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_curves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_embedded_raster_fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_gsv_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_image_filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_line_aa_basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_line_profile_aa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_rounded_rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_sqrt_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_trans_affine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_trans_double_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_trans_single_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_trans_warp_magnifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_bspline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_contour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_dash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_markers_term.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_smooth_poly1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vcgen_stroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vpgen_clip_polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vpgen_clip_polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\agg\src\agg_vpgen_segmentator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\win32\Threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zAlloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zBuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zBuf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zCrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zCrcOpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zDecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zExtract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zHeader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zItem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Bcj2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Bra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Bra86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\BraIA64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\CpuArch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Delta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzFind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzFindMt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma2Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma86Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma86Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\MtCoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Ppmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Ppmd7Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Ppmd7Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\7z_C\Threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Binary_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Data_Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\fex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\File_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Gzip_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Gzip_Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Rar_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Zip_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Zip7_Extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\fex\Zlib_Inflater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\archive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\arcread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\blake2s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\blake2s_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\blake2sp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\coder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\encname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\extract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\getbits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\pathfn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\rarvm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\rarvmtbl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\rawread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\secpassword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\strfn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\suballoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\timefn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unicode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack30.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack50.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack50frag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unpackinline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unrar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unrar_misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\File_Extractor\unrar\unrar_open.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\AboutBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\aviout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\cheatsWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\colorctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\CWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ddraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\disView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\FEX_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\FirmConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\fsnitroView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\gbaslot_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ginfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\hotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\importSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\inputdx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\IORegView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\lightView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\luaconsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\mapView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\matrixView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\memView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\mic-win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\oamView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ogl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ogl_display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\OpenArchive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\palView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\pathsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ram_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\ramwatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\recentroms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\replay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\slot1_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\snddx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\sndxa2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\soundView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\throttle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\tileView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\frontend\windows\winutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\gdbstub\gdbstub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\algorithms\mismatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_fnmatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_ifaddrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_posix_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_snprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_strcasestr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\compat\compat_strl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\conversion\float_to_s16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\conversion\s16_to_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\crt\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\dynamic\dylib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\encodings\encoding_utf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\features\features_cpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\nbio\test\nbio_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\nbio\nbio_stdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\archive_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\archive_file_zlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\config_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\file_path.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\retro_dirent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\file\retro_stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\bmp\rbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\bmp\rbmp_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\jpeg\rjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\json\jsonsax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\png\test\rpng_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\png\rpng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\png\rpng_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\tga\rtga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\xml\test\rxml_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\xml\rxml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\image_texture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\formats\image_transfer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\math\matrix_3x3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\math\matrix_4x4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\math\vector_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\math\vector_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\scaler\pixconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\scaler\scaler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\scaler\scaler_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\gfx\scaler\scaler_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\glsm\glsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\glsym\glsym_es2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\glsym\glsym_es3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\glsym\glsym_gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\glsym\rglgen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\hash\rhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\include\hash\rhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\amd64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\armeabi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\fiber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\libco.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\ppc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\psp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\sjlj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\ucontext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\libco\x86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\lists\dir_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\lists\file_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\lists\string_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\memmap\memalign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\memmap\memmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\test\net_http_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\test\net_ifinfo_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\net_compat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\net_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\net_ifinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\net\net_socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\queues\fifo_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\queues\message_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\queues\task_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\rthreads\async_job.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\rthreads\rsemaphore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\rthreads\rthreads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\rthreads\xenon_sdl_threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\streams\file_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\streams\interface_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\streams\memory_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\string\stdstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\utils\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\utils\djb2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\utils\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\utils\sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\utils\udp-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\libretro-common\vulkan\vulkan_symbol_wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\3dnow_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\AAFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\cpu_detect_x86_gcc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\cpu_detect_x86_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\FIFOSampleBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\FIRFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\mmx_optimized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\RateTransposer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\SoundTouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\sse_optimized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\TDStretch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SoundTouch\WavFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\win32\ConfigSoundtouch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\metaspu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\SndOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\metaspu\Timestretcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\arm_arm\arm_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\arm_arm\arm_jit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\assembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\assert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\compilercontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\compilerfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\compileritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\cpuinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\defs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\memorymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\memorymarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\operand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\stringbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\stringutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\virtualmemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\core\zonememory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86assembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86compilercontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86compilerfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86compileritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86cpuinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86defs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86operand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\AsmJit\x86\x86util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\colorspacehandler\colorspacehandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\colorspacehandler\colorspacehandler_AltiVec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\colorspacehandler\colorspacehandler_AVX2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\colorspacehandler\colorspacehandler_AVX512.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\colorspacehandler\colorspacehandler_SSE2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\decrypt\crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\decrypt\decrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\decrypt\header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\directory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\disc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\fatdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\fatfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\file_allocation_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\filetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\libfat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\libfat_public_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\libfat\partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\tinyxml\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\advanscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\dlditool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\emufat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\fsnitro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\guid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\vfat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\utils\xstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\arm_instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\arm_jit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\armcpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\bios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\cheatSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\commandline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\cp15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\Database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\emufile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\FIFO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\firmware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\gfx3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\GPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\lua-engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\mc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\mic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\MMU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\NDSSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\OGLRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\OGLRender_3_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\rasterize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\readwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\render3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\ROMReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\rtc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\saves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\slot1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\slot2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\SPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\texcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\thumb_instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="desmume\src\wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="desmume\src\addons\slot1comp_mc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\addons\slot1comp_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\addons\slot1comp_rom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\hq2x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\interp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\lq2x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\videofilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\filter\xbrz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\config\ftconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\config\ftheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\config\ftmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\config\ftoption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\config\ftstdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svcid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svfntfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svgldict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svgxval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svkern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svotval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svpfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svpostnm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svpscmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svpsinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svsfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svttcmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svtteng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svttglyf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\services\svwinfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\autohint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftgloadr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftrfork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftserv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\fttrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\ftvalid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\psaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\pshints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\sfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\t1types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\internal\tttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ft2build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftadvanc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftautoh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftbbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftbzip2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftcffdrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftchapters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftcid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\fterrdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\fterrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftfntfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftgasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftglyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftgxval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftgzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftincrem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftlcdfil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftlzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftmodapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftmoderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftotval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftoutln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftpfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftrender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftsizes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftsnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftsynth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\fttrigon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftttdrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\fttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ftwinfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\t1tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ttnameid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\tttables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\tttags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\include\ttunpat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\base\basepic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\base\ftbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\base\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2arrst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2blues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2ft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2glue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2hints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2intrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2read.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cf2types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffcmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffdrivr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cfferrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffgload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cffpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cfftoken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cff\cfftypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\ciderrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidgload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\cid\cidtoken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\afmparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\psauxerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\psauxmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\psconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\psobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\t1cmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psaux\t1decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshalgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshglob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshnterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\pshinter\pshrec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psnames\psmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psnames\psnamerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psnames\pspic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\psnames\pstables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\pngshim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sferrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfntpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\sfobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttcmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttcmapc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttkern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttmtx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttpost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\sfnt\ttsbit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftgrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftsmerrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftsmooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\smooth\ftspic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\tterrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttgload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttgxvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttinterp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttpload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\truetype\ttsubpix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1afm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1gload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1objs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\freetype\src\type1\t1tokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\lua\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\openemu\NDSGameCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\openemu\OENDSSystemResponderClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\openemu\OESoundInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\appDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\cheatWindowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\DisplayViewCALayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\DisplayWindowController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\EmuControllerDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\FileMigrationDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\inputPrefsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\InputProfileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\MacAVCaptureTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\MacBaseCaptureTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\MacMetalDisplayView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\MacOGLDisplayView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\MacScreenshotCaptureTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\preferencesWindowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\RomInfoPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\Slot2WindowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\troubleshootingWindowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\userinterface\WifiSettingsPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\audiosamplegenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\ClientAVCaptureObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\ClientDisplayView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\ClientExecutionControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\ClientInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_cheat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_firmware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_rom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_slot2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\cocoa_videofilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\coreaudiosound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\input_legacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\macOS_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\MetalRendererCommonShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\mic_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\OGLDisplayOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\OGLDisplayOutput_3_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\ringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\sndOSX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\cocoa\utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\modules\osd\agg\agg_osd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\modules\osd\agg\agg2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\modules\osd\agg\aggdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\modules\Disassembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\modules\ImageOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\tools\ioregsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\avout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\avout_flac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\avout_pipe_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\avout_x264.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\cheatsGTK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\config_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\desmume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\dTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\glx_3Demu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk\osmesa_3Demu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\dTools\callbacks_dtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\dTools\dTools_display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\callbacks_IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\desmume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\gdk_3Demu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\gdk_gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\gtk-glade\keyval_names.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\shared\ctrlssdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\shared\desmume_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\posix\shared\sndsdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\examples\pixel_formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\font_freetype\agg_font_freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\font_win32_tt\agg_font_win32_tt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_bezier_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_cbox_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_gamma_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_gamma_spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_polygon_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_rbox_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_scale_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_slider_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\ctrl\agg_spline_ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\platform\mac\agg_mac_pmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\platform\win32\agg_win32_bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\platform\agg_platform_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\util\agg_color_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\util\agg_color_conv_rgb8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\util\agg_color_conv_rgb16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_alpha_mask_u8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_arrowhead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_basics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_bezier_arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_bitset_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_blur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_bounding_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_bspline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_clip_liang_barsky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_color_gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_color_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_adaptor_vcgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_adaptor_vpgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_bspline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_clip_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_clip_polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_close_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_concat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_contour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_dash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_gpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_marker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_marker_adaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_segmentator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_shorten_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_smooth_poly1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_stroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_conv_unclose_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_curves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_dda_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_ellipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_ellipse_bresenham.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_embedded_raster_fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_font_cache_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_gamma_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_gamma_lut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_glyph_raster_bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_gradient_lut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_gsv_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_image_accessors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_image_filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_line_aa_basics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_math_stroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_path_length.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_path_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_path_storage_integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pattern_filters_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_amask_adaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_rgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_rgb_packed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_pixfmt_transposer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_cells_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_compound_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_outline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_outline_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_scanline_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rasterizer_sl_clip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_markers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_mclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_outline_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_outline_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_primitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_raster_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_renderer_scanline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rendering_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rendering_buffer_dynarow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_rounded_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_boolean_algebra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_storage_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_storage_bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_scanline_u.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_shorten_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_simul_eq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_gouraud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_gouraud_gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_gouraud_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_gradient_alpha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_image_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_image_filter_gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_image_filter_rgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_image_filter_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_interpolator_adaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_interpolator_linear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_interpolator_persp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_interpolator_trans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_pattern_gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_pattern_rgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_pattern_rgba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_solid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_span_subdiv_adaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_affine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_bilinear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_double_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_perspective.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_single_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_trans_warp_magnifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_bspline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_contour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_dash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_markers_term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_smooth_poly1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_stroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vcgen_vertex_sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vertex_sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vpgen_clip_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vpgen_clip_polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\agg\include\agg_vpgen_segmentator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\audiodefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\comdecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\ddraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\dinput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\dsound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\dxerr8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\XAudio2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\XInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\directx\xma2defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\win32\Threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7z.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zCrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zExtract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\7zVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Bcj2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Bra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\CpuArch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Delta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzFindMt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma2Dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma2Enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Lzma86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaDec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\LzmaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\MtCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Ppmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Ppmd7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\RotateDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\7z_C\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Binary_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\blargg_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Data_Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\fex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\File_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Gzip_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Gzip_Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Rar_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Zip_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Zip7_Extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\fex\Zlib_Inflater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\archive.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\blake2s.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\coder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\compress.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\encname.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\getbits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\hash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\headers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\headers5.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\rar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\rarvm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\rawread.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\strfn.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\suballoc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\timefn.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\unicode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\unpack.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\File_Extractor\unrar\unrar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\GL\glcorearb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\GL\glext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\GL\wglext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lua\include\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\begin_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\close_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_active.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_byteorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_cdrom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_dreamcast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_macos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_macosx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_minimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_nds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_os2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_symbian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_config_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_copying.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_getenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_keysym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_loadso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_quit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_rwops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_syswm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sdl\include\SDL_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\bittypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\bucket_lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\count_packets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Devioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Gnuc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\ip6_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\memory_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\normal_lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Ntddndis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Ntddpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Packet32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\pcap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\pcap-bpf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\pcap-int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\pcap-stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\remote-ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\tcp_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\time_calls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\tme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap\Win32-Extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\zlib128\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\zlib128\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\zlib128\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\AboutBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\afxres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\aviout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\cheatsWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\colorctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\CWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ddraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\disView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\FEX_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\FirmConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\fsnitroView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\gbaslot_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\hotkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\importSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\inputdx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\IORegView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\lightView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\mapView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\matrixView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\memView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\oamView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ogl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ogl_display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\OpenArchive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\palView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\pathsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ram_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\ramwatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\recentroms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\replay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\slot1_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\snddx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\sndxa2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\soundView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\throttle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\tileView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\windriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winpcap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\frontend\windows\winutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\gdbstub\gdbstub_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\crt\include\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\formats\png\rpng_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\algorithms\mismatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\msvc\stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\apple_compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\fnmatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\ifaddrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\intrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\msvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\posix_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\strcasestr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\strl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\compat\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\conversion\float_to_s16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\conversion\s16_to_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\dynamic\dylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\encodings\utf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\features\features_cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\file\archive_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\file\config_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\file\file_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\file\nbio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\jsonsax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\rbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\rjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\rpng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\rtga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\rxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\formats\tga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\math\matrix_3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\math\matrix_4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\math\vector_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\math\vector_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\scaler\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\scaler\pixconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\scaler\scaler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\gfx\scaler\scaler_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsm\glsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsm\glsmsym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\glsym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\glsym_es2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\glsym_es3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\glsym_gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\rglgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\glsym\rglgen_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\lists\dir_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\lists\file_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\lists\string_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\math\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\math\fxp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\net\net_compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\net\net_http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\net\net_ifinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\net\net_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\queues\fifo_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\queues\message_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\queues\task_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\rthreads\async_job.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\rthreads\rsemaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\rthreads\rthreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\streams\file_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\streams\interface_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\streams\memory_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\string\stdstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\utils\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\vulkan\vulkan_symbol_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\boolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\clamping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\libco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\libretro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\libretro_vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\memalign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\memmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_common_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_dirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_endianness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_miscellaneous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\retro_stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\include\rhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\rthreads\gx_pthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\libretro-common\rthreads\psp_pthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\AAFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\BPMDetect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\cpu_detect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\FIFOSampleBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\FIFOSamplePipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\FIRFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\RateTransposer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\SoundTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\STTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\TDStretch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SoundTouch\WavFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\win32\Dialogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\metaspu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\metaspu\SndOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\arm_arm\arm_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\arm_arm\reg_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\apibegin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\apiend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\assembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\compilercontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\compilerfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\compileritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\intutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\memorymanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\memorymarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\operand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\podvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\stringbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\stringutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\virtualmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core\zonememory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86assembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86compilercontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86compilerfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86compileritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86operand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86\x86util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\AsmJit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\AsmJit\x86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\colorspacehandler\colorspacehandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\colorspacehandler\colorspacehandler_AltiVec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\colorspacehandler\colorspacehandler_AVX2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\colorspacehandler\colorspacehandler_AVX512.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\colorspacehandler\colorspacehandler_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\decrypt\crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\decrypt\decrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\decrypt\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\bit_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\directory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\disc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\disc_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\fat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\fatdir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\fatfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\file_allocation_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\filetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\libfat_pc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\libfat_public_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\mem_allocate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\libfat\partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\tinyxml\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\tinyxml\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\advanscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\datetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\emufat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\emufat_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\fsnitro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\glcorearb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\guid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\vfat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\utils\xstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\arm_jit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\armcpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\bios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\cheatSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\commandline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\cp15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\Database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\emufile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\encrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\FIFO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\firmware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\gdbstub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\gfx3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\instruction_attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\lua-engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\mc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\mic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\MMU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\MMU_timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\NDSSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\OGLRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\OGLRender_3_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\PACKED.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\PACKED_END.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\rasterize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\readwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\registers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\render3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\ROMReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\saves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\slot1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\slot2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\SPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\texcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desmume\src\wifi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="desmume\src\frontend\windows\DeSmuME_x64.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="desmume\src\frontend\windows\resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
